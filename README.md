@@ -1,16 +1,8 @@
+# CDK Python - Amplify Static Site
 
-# Welcome to your CDK Python project!
+A sample CDK project in Python that shows how to create an Amplify application that deploys and hosts a static website (HTML+JS)
 
-This is a blank project for CDK development with Python.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-This project is set up like a standard Python project.  The initialization
-process also creates a virtualenv within this project, stored under the `.venv`
-directory.  To create the virtualenv it assumes that there is a `python3`
-(or `python` for Windows) executable in your path with access to the `venv`
-package. If for any reason the automatic creation of the virtualenv fails,
-you can create the virtualenv manually.
+This uses the alpha Amplify Library construct which is still [experimental](https://docs.aws.amazon.com/cdk/api/v2/python/aws_cdk.aws_amplify_alpha.html).
 
 To manually create a virtualenv on MacOS and Linux:
 
@@ -49,10 +41,10 @@ command.
 
 ## Useful commands
 
- * `cdk ls`          list all stacks in the app
- * `cdk synth`       emits the synthesized CloudFormation template
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk docs`        open CDK documentation
+- `cdk ls` list all stacks in the app
+- `cdk synth` emits the synthesized CloudFormation template
+- `cdk deploy` deploy this stack to your default AWS account/region
+- `cdk diff` compare deployed stack with current state
+- `cdk docs` open CDK documentation
 
 Enjoy!
